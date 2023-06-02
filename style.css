@@ -1,0 +1,104 @@
+/* Style the top bar */
+.top-bar {
+  background-color: #000000;
+}
+
+.top-bar h2 {
+  font-size: 36px;
+  color: #fff;
+  background-image: linear-gradient(to right, #5e39a3, #ff89d2, #63e2ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Style the header */
+header {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+/* Style the header content */
+.header-container {
+  max-width: calc(100% - 60px); /* Set max-width to the parent minus horizontal padding */
+  padding: 60px;
+  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background color to the text content */
+}
+
+.header-container h1 {
+  font-size: 45px;
+  margin: 0;
+}
+
+.cta {
+  display: inline-block;
+  background-color: #ffaf37;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin-top: 24px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.cta:hover {
+  background-color: #ffb94d;
+}
+
+/* Style the rules section */
+.rules-container {
+  max-width: 800px; /* Set a max-width to the container */
+  margin: 0 auto;
+}
+
+.rules-container h2 {
+  text-align: center;
+}
+
+.rules-container ol {
+  margin-top: 24px;
+  line-height: 2;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.rules-container ol li {
+  margin-left: 24px;
+}
+
+/* Style the discord section */
+.discord {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 64px 0;
+}
+
+.discord-box {
+  max-width: 800px; /* Set a max-width to the container */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.discord-box h2 {
+  margin-bottom: 24px;
+}
+
+.discord-box img {
+  max-width: 400px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #303030;
+  text-align: center;
+  color: #ffffff;
+  padding: 12px;
+}
